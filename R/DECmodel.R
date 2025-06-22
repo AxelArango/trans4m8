@@ -24,7 +24,7 @@ DECmodel<-function(geogfn,trfn,j=F,adjacency=NULL,stratified=NULL,cores=4){
   BioGeoBEARS_run_object$force_sparse = FALSE 
   BioGeoBEARS_run_object = readfiles_BioGeoBEARS_run(BioGeoBEARS_run_object)
   #
-  if(!is.null(adjacency)){BioGeoBEARS_run_object$areas_adjacency_fn = adjacency}
+  if(!is.null(adjacency)){BioGeoBEARS_run_object$dispersal_multipliers_fn= adjacency}
   if(!is.null(stratified)){BioGeoBEARS_run_object$timesfn = stratified}
   BioGeoBEARS_run_object$return_condlikes_table = TRUE
   BioGeoBEARS_run_object$calc_TTL_loglike_from_condlikes_table = TRUE
