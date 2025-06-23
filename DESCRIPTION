@@ -1,10 +1,10 @@
 Package: trans4m8
-Title: What the Package Does (One Line, Title Case)
+Title: Tools for the transformation of Biogeographical data
 Version: 0.0.0.9000
 Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"),
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
+    person("Axel", "Arango", , "axlarango@gmail.con", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0001-6246-8141"))
+Description: This package contains multiple functions to transformate relevant biogeographic data, and communicate key packages such as "Phyloregion", "LetsR", "BioGeoBEARS", "LEMAD" and "GeoHiSSE").
 License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
     license
 Encoding: UTF-8

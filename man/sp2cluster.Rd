@@ -8,9 +8,11 @@ This function assigns species to the clusters obtained with phyloregion. Gives w
 sp2cluster(comm_data, cluster_data, letters = T)
 }
 \arguments{
-\item{comm_data}{a sparse community data from phyloregion}
+\item{comm_data}{A sparse community data from phyloregion}
 
-\item{cluster_data}{a phyloregion data.frame result}
+\item{cluster_data}{A phyloregion data.frame result}
+
+\item{letters}{This function allows the user to decide if the clusters will be given as numbers (phyloregion output) or as letters (suitable for BioGeoBEARS, Lemad or GeoHiSSE)}
 }
 \description{
 Species to clusters
