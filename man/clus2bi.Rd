@@ -14,6 +14,9 @@ clus2bi(data, reg = NULL, num = T)
 
 \item{num}{This parameter indicates if the result data.frame will contain the ranges as numbers (required for SSE analyses), Where state 0 is range A (or reg), state 1 is range B (or clusters-reg), and state 2 is AB or species that live in both ranges.}
 }
+\value{
+data frame with species belonging to Range A, Range B or widespread (Range AB)
+}
 \description{
 Clusters to dichotomic regions
 Transforms a data.frame that contains species and their clusters into data with binary characters (A and B) and a widespread state (AB) for analyses in binary character speciation and extinction models (Particularly GeoHisse)
