@@ -17,6 +17,7 @@ res2df<-function(res,phylo,areas=NULL){
     relativeprobsbin[i,]<-0
     relativeprobsbin[i,colx]<-1
   }
+  states<-res$inputs$all_geog_states_list_usually_inferred_from_areas_maxareas
   stateslist<-data.frame()
   for(a in 1:length(relativeprobs[1,])){
     slep<-states[[a]]
