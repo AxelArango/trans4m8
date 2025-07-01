@@ -1,7 +1,8 @@
 #'Dataframe to Phylip
+#'
 #'Transform a data frame with species and areas into a table almost ready for BioGeoBEARS. save as: write.table(phylip,"phylip.txt",row.names=F,col.names=F,quote=F). It will still require the Phylip inititation (Number of species, Number of areas, names of the areas).
 #'@param data a data.frame with a column species that contains the species to use in the biogeographic analysis, genus separated from species with "_"; and a column with the biogeographic area in which the species resides.
-#'@return a table ready to be used for Biogeobears
+#'@return a table ready to be used for Biogeobears.
 #'@export
 data2phylip<-function(data){
   dumtable<-table(data$species,data$cluster)

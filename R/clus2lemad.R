@@ -1,4 +1,5 @@
 #'Cluster to Lemad
+#'
 #'This function transforms a data frame of species with their ranges into a working table ready to use for Lemad analysis. By combining all the individual ranges and sorting the species in the same order as they are in the phylogeny.
 #'@param data A data.frame with species and a unique range (e.g., "A", "B"), in that order.
 #'@param tree A phylogenetic tree of the species from data.

@@ -2,8 +2,7 @@
 % Please edit documentation in R/data2phylip.R
 \name{data2phylip}
 \alias{data2phylip}
-\title{Dataframe to Phylip
-Transform a data frame with species and areas into a table almost ready for BioGeoBEARS. save as: write.table(phylip,"phylip.txt",row.names=F,col.names=F,quote=F). It will still require the Phylip inititation (Number of species, Number of areas, names of the areas).}
+\title{Dataframe to Phylip}
 \usage{
 data2phylip(data)
 }
@@ -11,9 +10,8 @@ data2phylip(data)
 \item{data}{a data.frame with a column species that contains the species to use in the biogeographic analysis, genus separated from species with "_"; and a column with the biogeographic area in which the species resides.}
 }
 \value{
-a table ready to be used for Biogeobears
+a table ready to be used for Biogeobears.
 }
 \description{
-Dataframe to Phylip
 Transform a data frame with species and areas into a table almost ready for BioGeoBEARS. save as: write.table(phylip,"phylip.txt",row.names=F,col.names=F,quote=F). It will still require the Phylip inititation (Number of species, Number of areas, names of the areas).
 }

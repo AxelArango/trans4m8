@@ -2,22 +2,20 @@
 % Please edit documentation in R/clus2bi.R
 \name{clus2bi}
 \alias{clus2bi}
-\title{Clusters to dichotomic regions
-Transforms a data.frame that contains species and their clusters into data with binary characters (A and B) and a widespread state (AB) for analyses in binary character speciation and extinction models (Particularly GeoHisse)}
+\title{Clusters to dichotomic regions}
 \usage{
 clus2bi(data, reg = NULL, num = T)
 }
 \arguments{
-\item{data}{a data.frame with species names and clusters columns in that order}
+\item{data}{a data.frame with species names and clusters columns in that order.}
 
-\item{reg}{combination of the clusters that conform one of the two regions (e.g., "ADG")}
+\item{reg}{combination of the clusters that conform one of the two regions (e.g., "ADG").}
 
 \item{num}{This parameter indicates if the result data.frame will contain the ranges as numbers (required for SSE analyses), Where state 0 is range A (or reg), state 1 is range B (or clusters-reg), and state 2 is AB or species that live in both ranges.}
 }
 \value{
-data frame with species belonging to Range A, Range B or widespread (Range AB)
+data frame with species belonging to Range A, Range B or widespread (Range AB).
 }
 \description{
-Clusters to dichotomic regions
-Transforms a data.frame that contains species and their clusters into data with binary characters (A and B) and a widespread state (AB) for analyses in binary character speciation and extinction models (Particularly GeoHisse)
+Transforms a data.frame that contains species and their clusters into data with binary characters (A and B) and a widespread state (AB) for analyses in binary character speciation and extinction models (Particularly GeoHisse).
 }

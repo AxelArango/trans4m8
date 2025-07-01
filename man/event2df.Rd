@@ -2,8 +2,7 @@
 % Please edit documentation in R/event2df.R
 \name{event2df}
 \alias{event2df}
-\title{Cladogenetic Event table to summary data frame
-Transfors the standard cladogenetic event tables from BioGeoBEARS SBMs into a dataframe that includes the cladogenetic event of interest across the total number of calculated maps.}
+\title{Cladogenetic Event table to summary data frame}
 \usage{
 event2df(event_tables, type = NULL)
 }
@@ -16,6 +15,5 @@ event2df(event_tables, type = NULL)
 a data.frame with the type of event, the time at which it happened in MYA, at which node it happen and the area in which it happened.
 }
 \description{
-Cladogenetic Event table to summary data frame
 Transfors the standard cladogenetic event tables from BioGeoBEARS SBMs into a dataframe that includes the cladogenetic event of interest across the total number of calculated maps.
 }

@@ -1,8 +1,9 @@
 #'Cladogenetic Event table to summary data frame
-#'Transfors the standard cladogenetic event tables from BioGeoBEARS SBMs into a dataframe that includes the cladogenetic event of interest across the total number of calculated maps.
-#'@param event_tables a list with cladogenetic tables acquired through the stochastic mapping from BioGeoBEARS.
-#'@param type type of cladogenetic event, NULL by default. This can be subset cladogenesis "subset (s)", vicariance "vicariance (v)", in situ speciation "sympatry (y)", and founder events "founder (j)".
-#'@returns a data.frame with the type of event, the time at which it happened in MYA, at which node it happen and the area in which it happened.
+#'
+#'Transforms the standard cladogenetic event tables from BioGeoBEARS SBMs into a dataframe that includes the cladogenetic event of interest across the total number of calculated maps.
+#'@param event_tables A list with cladogenetic tables acquired through the stochastic mapping from BioGeoBEARS.
+#'@param type Type of cladogenetic event, NULL by default. This can be subset cladogenesis "subset (s)", vicariance "vicariance (v)", in situ speciation "sympatry (y)", and founder events "founder (j)".
+#'@returns A data.frame with the type of event, the time at which it happened in MYA, at which node it happen and the area in which it happened.
 #'@export
 event2df<-function(event_tables,type=NULL){
   eventx<-data.frame()

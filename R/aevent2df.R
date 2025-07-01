@@ -1,8 +1,9 @@
 #'Cladogenetic Event table to summary data frame
-#'Transfors the standard anagenetic event tables from BioGeoBEARS SBMs into a data.frame that includes the anagenetic event of interest across the total number of calculated maps.
-#'@param event_tables a list with anagenetic tables acquired through the stochastic mapping from BioGeoBEARS.
-#'@param type type of anagenetic event, NULL by default. This can be subset dispersal "d" and extinction "e".
-#'@returns a data.frame with the type of event, the time at which it happened in MYA, at which node it happen and the area in which it happened.
+#'
+#'Transforms the standard anagenetic event tables from BioGeoBEARS SBMs into a data.frame that includes the anagenetic event of interest across the total number of calculated maps.
+#'@param event_tables A list with anagenetic tables acquired through the stochastic mapping from BioGeoBEARS.
+#'@param type Type of anagenetic event, NULL by default. This can be subset dispersal "d" and extinction "e".
+#'@returns A data.frame with the type of event, the time at which it happened in MYA, at which node it happen and the area in which it happened.
 #'@export
 aevent2df<-function(event_tables,type=NULL){
   eventx<-data.frame()

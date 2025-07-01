@@ -1,6 +1,7 @@
 #'Phylip to data.frame with cluster
-#'This function turns a BioGeoBEARS Phylip table into data frame ready for use with LEMAD
-#'@param data table object of a Phylip file without the initiation row (Number of species, Number of areas, Names of areas)
+#'
+#'This function turns a BioGeoBEARS Phylip table into data frame ready for use with LEMAD.
+#'@param data table object of a Phylip file without the initiation row (Number of species, Number of areas, Names of areas).
 #'@export
 phylip2clust<-function(data){
   names(data)<-c("sp","regions")

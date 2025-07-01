@@ -2,8 +2,7 @@
 % Please edit documentation in R/clus2lemad.R
 \name{clus2lemad}
 \alias{clus2lemad}
-\title{Cluster to Lemad
-This function transforms a data frame of species with their ranges into a working table ready to use for Lemad analysis. By combining all the individual ranges and sorting the species in the same order as they are in the phylogeny.}
+\title{Cluster to Lemad}
 \usage{
 clus2lemad(data, tree)
 }
@@ -16,6 +15,5 @@ clus2lemad(data, tree)
 A data frame of species and their combined ranges in the same order as the phylogeny.
 }
 \description{
-Cluster to Lemad
 This function transforms a data frame of species with their ranges into a working table ready to use for Lemad analysis. By combining all the individual ranges and sorting the species in the same order as they are in the phylogeny.
 }

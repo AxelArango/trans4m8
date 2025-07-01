@@ -2,15 +2,13 @@
 % Please edit documentation in R/phylip2clust.R
 \name{phylip2clust}
 \alias{phylip2clust}
-\title{Phylip to data.frame with cluster
-This function turns a BioGeoBEARS Phylip table into data frame ready for use with LEMAD}
+\title{Phylip to data.frame with cluster}
 \usage{
 phylip2clust(data)
 }
 \arguments{
-\item{data}{table object of a Phylip file without the initiation row (Number of species, Number of areas, Names of areas)}
+\item{data}{table object of a Phylip file without the initiation row (Number of species, Number of areas, Names of areas).}
 }
 \description{
-Phylip to data.frame with cluster
-This function turns a BioGeoBEARS Phylip table into data frame ready for use with LEMAD
+This function turns a BioGeoBEARS Phylip table into data frame ready for use with LEMAD.
 }

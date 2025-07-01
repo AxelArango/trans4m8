@@ -2,20 +2,18 @@
 % Please edit documentation in R/cluster2dist.R
 \name{cluster2dist}
 \alias{cluster2dist}
-\title{Clusters to distance matrix
-This function calculates the geodesic distance between clusters using a phyloregion object}
+\title{Clusters to distance matrix}
 \usage{
 cluster2dist(phyloreg, BioGeoBEARS = T)
 }
 \arguments{
-\item{phyloreg}{Phyloregion object, preferably with the optimal K}
+\item{phyloreg}{Phyloregion object, preferably with the optimal K.}
 
-\item{BioGeoBEARS}{If true, it will set up the matrix ready to be exported for BioGeoBears (i.e., distances of 0 are turned into 1, to avoid calculation problems as suggested by Matzke. 2014)}
+\item{BioGeoBEARS}{If true, it will set up the matrix ready to be exported for BioGeoBears (i.e., distances of 0 are turned into 1, to avoid calculation problems as suggested by Matzke. 2014).}
 }
 \value{
 A square distance matrix of the geodesic distance between phyloregions, measured in Km.
 }
 \description{
-Clusters to distance matrix
-This function calculates the geodesic distance between clusters using a phyloregion object
+This function calculates the geodesic distance between clusters using a phyloregion object.
 }

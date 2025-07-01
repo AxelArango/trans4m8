@@ -1,9 +1,10 @@
 #'BioGeoBEARS result to data.frame
+#'
 #'This function helps extracting the state with maximum likelihood probability for each branch at the node (i.e., the most probable ancestral area for each node, and tip). This is useful for plotting in ggtree or better visualizing the ancestral states of the node.
 #'@param res res object (calc_loglig_sp_results) from BioGeoBEARS
-#'@param phylo phylogenetic tree used to calculate res object
-#'@param areas number of unique areas used to calculate res object
-#'@returns a data.frame with the tip label and node number in the phylogey and the most probable ancestral area fro such label.
+#'@param phylo Phylogenetic tree used to calculate res object
+#'@param areas Number of unique areas used to calculate res object
+#'@returns A data.frame with the tip label and node number in the phylogeny and the most probable ancestral area fro such label.
 #'@export
 res2df<-function(res,phylo,areas=NULL){
 

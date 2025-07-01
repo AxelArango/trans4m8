@@ -2,8 +2,7 @@
 % Please edit documentation in R/res2df.R
 \name{res2df}
 \alias{res2df}
-\title{BioGeoBEARS result to data.frame
-This function helps extracting the state with maximum likelihood probability for each branch at the node (i.e., the most probable ancestral area for each node, and tip). This is useful for plotting in ggtree or better visualizing the ancestral states of the node.}
+\title{BioGeoBEARS result to data.frame}
 \usage{
 res2df(res, phylo, areas = NULL)
 }
@@ -18,6 +17,5 @@ res2df(res, phylo, areas = NULL)
 a data.frame with the tip label and node number in the phylogey and the most probable ancestral area fro such label.
 }
 \description{
-BioGeoBEARS result to data.frame
 This function helps extracting the state with maximum likelihood probability for each branch at the node (i.e., the most probable ancestral area for each node, and tip). This is useful for plotting in ggtree or better visualizing the ancestral states of the node.
 }
