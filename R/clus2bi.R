@@ -31,13 +31,13 @@ clus2bi<-function(data,reg=NULL,num=T){
   if(num==T){
     regb<-spreg %>%
       filter(!grepl(id,ranges)) %>%
-      mutate(ranges=1)
+      mutate(ranges=2)
     rega1<-spreg %>%
       filter(grepl(id,ranges))
     for(h in 1:length(rega1$taxon)){
       reg2<-unlist(strsplit(rega1$ranges[h],""))
-      if(length(reg2)>length(reg1)){rega1$ranges[h]<-2}else{
-        rega1$ranges[h]<-0
+      if(length(reg2)>length(reg1)){rega1$ranges[h]<-0}else{
+        rega1$ranges[h]<-1
       }
     }
   }

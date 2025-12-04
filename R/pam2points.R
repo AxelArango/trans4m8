@@ -1,9 +1,9 @@
 #'PAM to points
 #'
 #'Transforms a Presence Absence Matrix object from letsR into geographic data points for the species.
-#'@param PAM a Presence Absence Matrix object from letsR.
-#'@param phylo_names option to turn the names of species into names that can match phylogenetic data.
-#'@param gridid option to return the id of the grid, useful for validate number of assamblages.
+#'@param PAM A Presence Absence Matrix object from letsR.
+#'@param phylo_names Option to turn the names of species into names that can match phylogenetic data.
+#'@param gridid Option to return the id of the grid, useful for validate number of assamblages.
 #'@export
 pam2points<-function(PAM,phylo_names=F,gridid=F){
   coords<-as.data.frame(PAM$Presence_and_Absence_Matrix[,1:2])
